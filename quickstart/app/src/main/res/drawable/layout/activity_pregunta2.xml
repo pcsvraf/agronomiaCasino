@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.servicio.calidad.encuesta.encuestatuopiniondf.Pregunta2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="70dp"
+        android:layout_marginVertical="50dp"
+        android:text="El tiempo que esperé para mi atención fue razonable"
+        android:textAlignment="center"
+        android:textColor="@color/Black"
+        android:textSize="40dp"
+        android:id="@+id/textView" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginVertical="120dp"
+        android:id="@+id/linearLayout">
+        <ImageView
+            android:id="@+id/cara1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="100dp"
+            android:layout_marginVertical="150dp"
+            android:background="@drawable/cara1" />
+
+        <ImageView
+            android:id="@+id/cara2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="0dp"
+            android:layout_marginVertical="150dp"
+            android:background="@drawable/cara2" />
+
+        <ImageView
+            android:id="@+id/cara3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="100dp"
+            android:layout_marginVertical="150dp"
+            android:background="@drawable/cara3" />
+
+        <ImageView
+            android:id="@+id/cara4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="0dp"
+            android:layout_marginVertical="150dp"
+            android:background="@drawable/cara4" />
+
+        <ImageView
+            android:id="@+id/cara5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="100dp"
+            android:layout_marginVertical="150dp"
+            android:background="@drawable/cara5" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/BTNsiguiente3"
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/linearLayout"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/linearLayout"
+        android:layout_marginBottom="137dp"
+        android:layout_marginEnd="135dp"
+        android:layout_marginHorizontal="900dp"
+        android:layout_marginRight="135dp"
+        android:layout_weight="1"
+        android:background="@drawable/buttonstyle"
+        android:text="siguiente"
+        android:textColor="@color/blanco" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginVertical="500dp">
+
+
+        <RadioGroup
+            android:id="@+id/radioGroup2"
+            android:layout_marginHorizontal="20dp"
+            android:background="@color/lightorangedark"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radioButton6"
+                android:layout_width="29dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="140dp"
+                android:text="1" />
+
+            <RadioButton
+                android:id="@+id/radioButton7"
+                android:layout_width="29dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="40dp"
+                android:text="2" />
+
+            <RadioButton
+                android:id="@+id/radioButton8"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="150dp"
+                android:text="3" />
+
+            <RadioButton
+                android:id="@+id/radioButton9"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="40dp"
+                android:text="4" />
+
+            <RadioButton
+                android:id="@+id/radioButton10"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="150dp"
+                android:text="5" />
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textotime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="150dp"
+        android:layout_marginStart="124dp" />
+
+
+</RelativeLayout>

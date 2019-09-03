@@ -1,0 +1,69 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo"
+    tools:context="com.example.quickstart.Pregunta1">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="70dp"
+        android:layout_marginTop="73dp"
+        android:layout_marginVertical="50dp"
+        android:text="hola"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="@color/color"
+        android:textSize="47dp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginVertical="60dp"
+        android:layout_marginHorizontal="0dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/like"
+            android:layout_width="200px"
+            android:layout_height="200px"
+            android:layout_marginHorizontal="120dp"
+            android:layout_marginVertical="150dp"
+            android:background="@drawable/like"
+            android:text="Si"
+            android:textSize="0dp" />
+
+        <TextView
+            android:id="@+id/dislike"
+            android:layout_width="200px"
+            android:layout_height="200px"
+            android:layout_marginHorizontal="120dp"
+            android:layout_marginVertical="150dp"
+            android:background="@drawable/dislike"
+            android:text="No"
+            android:textSize="0dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/prueba"
+        android:layout_width="206dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginHorizontal="70dp"
+        android:layout_marginBottom="104dp"
+        android:background="@drawable/buttonstylevolver"
+        android:text="volver"
+        android:textSize="20dp"
+        android:textColor="@color/blanco" />
+</RelativeLayout>

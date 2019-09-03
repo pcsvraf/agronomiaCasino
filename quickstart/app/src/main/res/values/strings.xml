@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Quickstart</string>
+    <string name="primero"><![CDATA[<b>¿Que te pareció el almuerzo?</b>]]></string>
+    <string name="pregunta1"><![CDATA[<b>¿Te gustaría explicar la razón?</b>]]></string>
+    <string name="pregunta3"><![CDATA[<b>¿Cual es la razón?</b>]]></string>
+    <string name="other"><![CDATA[Otro]]></string>
+    <string name="imagen2"><b>EXCELENTE</b></string>
+    <string name="imagen3"><b>BUENO</b></string>
+    <string name="imagen4"><b>\tREGULAR</b></string>
+    <string name="imagen5"><b>\tMALO</b></string>
+    <string name="imagen6"><b>PÉSIMO</b></string>
+
+
+</resources>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "264739134095",
+    "firebase_url": "https://tablet-b34f4.firebaseio.com",
+    "project_id": "tablet-b34f4",
+    "storage_bucket": "tablet-b34f4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:264739134095:android:80bac124718fcf77",
+        "android_client_info": {
+          "package_name": "com.example.quickstart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "264739134095-u1bvdjj3r16iq4fgpelalv792vsic2ms.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-NKEFnQMd_kWga2uXzGn3HCnCKgtWugA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "264739134095-u1bvdjj3r16iq4fgpelalv792vsic2ms.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

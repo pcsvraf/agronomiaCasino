@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/blanco"
+tools:context="com.servicio.calidad.encuesta.encuestatuopiniondf.Pregunta4">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="70dp"
+    android:layout_marginVertical="50dp"
+    android:text="Califique la atención recibida con nota del 1 al 7"
+    android:textAlignment="center"
+    android:textColor="@color/Black"
+    android:textSize="50dp"
+    android:id="@+id/textView" />
+
+<LinearLayout
+    android:id="@+id/linearLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignTop="@+id/textView"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="78dp"
+    android:layout_marginVertical="10dp"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/cara1"
+        android:layout_width="150dp"
+        android:layout_height="180dp"
+        android:layout_marginHorizontal="0dp"
+        android:layout_marginVertical="150dp"
+        android:background="@drawable/numero1" />
+
+    <ImageView
+        android:id="@+id/cara2"
+        android:layout_width="150dp"
+        android:layout_height="180dp"
+        android:layout_marginHorizontal="0dp"
+        android:layout_marginVertical="150dp"
+        android:background="@drawable/numero2" />
+
+    <ImageView
+        android:id="@+id/cara3"
+        android:layout_width="150dp"
+        android:layout_height="180dp"
+        android:layout_marginHorizontal="0dp"
+        android:layout_marginVertical="150dp"
+        android:background="@drawable/numero3" />
+
+    <ImageView
+        android:id="@+id/cara4"
+        android:layout_width="150dp"
+        android:layout_height="180dp"
+        android:layout_marginHorizontal="0dp"
+        android:layout_marginVertical="150dp"
+        android:background="@drawable/numero4" />
+
+    <ImageView
+        android:id="@+id/cara5"
+        android:layout_width="150dp"
+        android:layout_height="180dp"
+        android:layout_marginHorizontal="0dp"
+        android:layout_marginVertical="150dp"
+        android:background="@drawable/numero5" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="180dp"
+        android:layout_marginHorizontal="0dp"
+        android:layout_marginVertical="150dp"
+
+        android:background="@drawable/numero6" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="180dp"
+        android:layout_marginVertical="150dp"
+        android:background="@drawable/numero7" />
+</LinearLayout>
+
+<Button
+    android:id="@+id/BTNsiguiente5"
+    android:layout_width="189dp"
+    android:layout_height="wrap_content"
+    android:layout_alignEnd="@+id/textView"
+    android:layout_alignParentBottom="true"
+    android:layout_alignRight="@+id/textView"
+    android:layout_marginBottom="54dp"
+    android:layout_marginEnd="23dp"
+    android:layout_marginHorizontal="900dp"
+    android:layout_marginRight="23dp"
+    android:layout_weight="1"
+    android:background="@drawable/buttonstyle"
+    android:text="siguiente"
+    android:textColor="@color/blanco" />
+
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginHorizontal="100dp"
+    android:background="@color/lightorangedark"
+    android:layout_marginVertical="450dp"
+    android:id="@+id/linearLayout2">
+
+
+    <RadioGroup
+        android:id="@+id/radioGroup4"
+        android:layout_marginHorizontal="0dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioButton16"
+            android:layout_width="29dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="80dp"
+            android:text="1" />
+
+        <RadioButton
+            android:id="@+id/radioButton17"
+            android:layout_width="29dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="42dp"
+            android:text="2" />
+
+        <RadioButton
+            android:id="@+id/radioButton18"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="82dp"
+            android:text="3" />
+
+        <RadioButton
+            android:id="@+id/radioButton19"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="52dp"
+            android:text="4" />
+
+        <RadioButton
+            android:id="@+id/radioButton20"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="55dp"
+            android:text="5" />
+
+        <RadioButton
+            android:id="@+id/radioButton21"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="64dp"
+            android:text="6"/>
+        <RadioButton
+            android:id="@+id/radioButton22"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="55dp"
+            android:text="7"/>
+    </RadioGroup>
+
+</LinearLayout>
+
+<TextView
+    android:id="@+id/textotime4"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentStart="true"
+    android:layout_marginBottom="150dp"
+    android:layout_marginStart="124dp" />
+
+
+</RelativeLayout>

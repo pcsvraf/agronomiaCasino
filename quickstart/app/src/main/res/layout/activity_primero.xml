@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo"
+    tools:context=".primero">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="70dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginVertical="50dp"
+        android:text="¿Que te pareció el almuerzo?"
+        android:textAlignment="center"
+        android:textColor="@color/color"
+        android:textSize="47dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/linearLayout"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="110dp"
+        android:text="@string/imagen2"
+        android:textAlignment="viewStart"
+        android:textColor="@color/color"
+        android:textSize="28dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/linearLayout"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="368dp"
+        android:text="@string/imagen3"
+        android:textAlignment="center"
+        android:textColor="@color/color"
+        android:textSize="28dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/linearLayout"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="566dp"
+        android:text="@string/imagen4"
+        android:textAlignment="center"
+        android:textColor="@color/color"
+        android:textSize="28dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/linearLayout"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="818dp"
+        android:text="@string/imagen5"
+        android:textAlignment="center"
+        android:textColor="@color/color"
+        android:textSize="28dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/linearLayout"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="130dp"
+        android:text="@string/imagen6"
+        android:textAlignment="center"
+        android:textColor="@color/color"
+        android:textSize="28dp" />
+
+
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginVertical="120dp"
+        android:orientation="horizontal">
+
+
+        <pl.droidsonroids.gif.GifTextView
+            android:id="@+id/imagen1"
+            android:layout_marginVertical="100dp"
+            android:layout_marginHorizontal="30dp"
+            android:layout_width="170px"
+            android:layout_height="170px"
+            android:text="Excelente"
+            android:textSize="0dp"
+            android:background="@drawable/imagen1" />
+
+        <pl.droidsonroids.gif.GifTextView
+            android:id="@+id/imagen2"
+            android:layout_marginVertical="100dp"
+            android:layout_marginHorizontal="30dp"
+            android:layout_width="170px"
+            android:layout_height="170px"
+            android:text="Bueno"
+            android:textSize="0dp"
+            android:background="@drawable/imagen2" />
+
+        <pl.droidsonroids.gif.GifTextView
+            android:id="@+id/imagen3"
+            android:layout_marginVertical="100dp"
+            android:layout_marginHorizontal="30dp"
+            android:layout_width="170px"
+            android:layout_height="170px"
+            android:text="Regular"
+            android:textSize="0dp"
+            android:background="@drawable/imagen3" />
+
+        <pl.droidsonroids.gif.GifTextView
+            android:id="@+id/imagen4"
+            android:layout_marginVertical="100dp"
+            android:layout_marginHorizontal="30dp"
+            android:layout_width="170px"
+            android:layout_height="170px"
+            android:text="Malo"
+            android:textSize="0dp"
+            android:background="@drawable/imagen4" />
+
+        <pl.droidsonroids.gif.GifTextView
+            android:id="@+id/imagen5"
+            android:layout_marginVertical="100dp"
+            android:layout_marginHorizontal="30dp"
+            android:layout_width="170px"
+            android:layout_height="170px"
+            android:text="Pésimo"
+            android:textSize="0dp"
+            android:background="@drawable/imagen5" />
+    </LinearLayout>
+
+</RelativeLayout>
