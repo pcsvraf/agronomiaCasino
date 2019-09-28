@@ -87,7 +87,7 @@ public class MainActivity extends AppCompatActivity
     RadioGroup radio;
     Button BOTON_RESPUESTAS, boton;
     ProgressDialog mProgress;
-    TextView texto, imagen1,imagen2,imagen3,imagen4,imagen5,imagen6,imagen7,txt;
+    TextView texto, imagen1,imagen2,imagen3,imagen4,imagen5,imagen6,imagen7,txt,txt1;
     CheckBox prueba;
     String seleccionado1, seleccionado2, seleccionado3;
     CheckBox check1,check2,check3,check4,check5,check6,check7;
@@ -112,6 +112,7 @@ public class MainActivity extends AppCompatActivity
         setContentView(R.layout.activity_main);
         datos = GuardarDatos.instancia;
         txt = (TextView) findViewById(R.id.textView4);
+        txt1 = (TextView) findViewById(R.id.textView5);
         BOTON_RESPUESTAS = (Button) findViewById(R.id.BTNsiguiente5);
         texto = (TextView) findViewById(R.id.textotime4);
         boton = (Button)findViewById(R.id.volver);
@@ -122,7 +123,7 @@ public class MainActivity extends AppCompatActivity
 
 
         txt.setText(Html.fromHtml(getResources().getString(R.string.pregunta3)));
-
+        txt1.setText(Html.fromHtml(getResources().getString(R.string.pregunta4)));
         timee = PrincipalActivity.intancia;
         CountDownTimer countDownTimer = PrincipalActivity.mCountDownTimer;
         check1 = (CheckBox) findViewById(R.id.check1);
